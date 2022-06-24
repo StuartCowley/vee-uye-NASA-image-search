@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Results renders correctly 1`] = `
+<DocumentFragment>
+  <p
+    class="search-results-text"
+  >
+    Search Results
+  </p>
+  <div
+    class="search-results-wrap"
+  >
+    <div
+      class="search-results"
+    >
+      <img
+        alt="search results"
+        class="search-results-image"
+        src="https://images-assets.nasa.gov/image/PIA08216/PIA08216~thumb.jpg"
+      />
+      <img
+        alt="search results"
+        class="search-results-image"
+        src="https://images-assets.nasa.gov/image/PIA22081/PIA22081~thumb.jpg"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

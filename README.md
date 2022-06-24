@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# NASA Image Search App 🚀 🧑🏾‍🚀 🪐
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a mock React technical test. It was created as part of my studies on the [Manchester Codes](https://www.manchestercodes.com/) Bootcamp.
 
-## Available Scripts
+- [Brief](#the-brief)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+  - [Languages & Library](#language--library)
+  - [Testing Utilities](#testing-utilities)
+  - [Packages](#packages)
+- [Open NASA Image Search App in GitHub Pages](#open-nasa-image-search-in-github-pages)
+- [Run NASA Image Search App in Development Mode](#run-nasa-image-search-in-development-mode)
+- [Run Tests](#run-tests)
+- [Roadmap](#roadmap)
+- [Contributions](#contributions)
+- [Acknowledgements](#acknowledgements)
+- [Project Status](#project-status)
 
-In the project directory, you can run:
+## The Brief
 
-### `npm start`
+The goal was to build a React web app that allows user to search for images through the NASA image search API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following functionality was required:
+
+- A Search page which allows users to search for images by keyword
+- Images must be returned upon a successful search
+
+## Screenshots
+
+### Mobile Version
+
+![NASA Search Mobile Version](/README-assets/mobile-screenshot.png?raw=true "Mobile Version")
+
+### Desktop Version
+
+![NASA Search Desktop Version](/README-assets/desktop-screenshot.png?raw=true "Desktop Version")
+
+## Technologies
+
+### Language & Library
+
+- Javascript
+- React
+
+### Testing Utilities
+
+- Jest
+- React Testing Library
+
+### Packages
+
+- Axios
+- PropTypes
+
+## Open NASA Image Search in GitHub Pages
+
+NASA Image Search App is hosted here on GitHub Pages [https://veeuye.github.io/NASA-image-search/](https://veeuye.github.io/NASA-image-search/). You can get started by opening the link in your preferred browser.
+
+## Run NASA Image Search in Development Mode
+
+Clone [this repo](https://github.com/VeeUye/tech-test-mcr-codes). For more information on how to do this, visit [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+`npm start` runs the app in the development mode.\
+ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ You may also see any lint errors in the console.
 
-### `npm test`
+### Run Tests
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run `npm test` to launch the test runner in watch mode.
+See [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Roadmap
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ ] Open user selected image in modal
+- [ ] Add on focus styling for mobile
+- [ ] Add functionality to download selected images
+- [ ] Write a test for getImages with mock data
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### `npm run eject`
+Please make sure to update tests as appropriate.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Acknowledgements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Manchester Codes](https://www.manchestercodes.com/) for including this project on their Bootcamp learning track.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Status
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Active!

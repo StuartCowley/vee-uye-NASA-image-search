@@ -1,0 +1,25 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nasa-logo {
+  background-color: white;
+  z-index: -10;
+  height: 10rem;
+  width: 20rem;
+}
+
+.header-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100vw;
+  height: max-content;
+  background-color: white;
+  z-index: 1;
+}
